@@ -15,10 +15,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-
   "homepage": "https://sarahshelden.github.io/ClickyReactGame/",
   "devDependencies": {
     "gh-pages": "^1.2.0"
-
   }
 }
