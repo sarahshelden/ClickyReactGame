@@ -25,7 +25,7 @@ class App extends Component {
     alert(`Game Over :( \nscore: ${this.state.score}`);
     this.setState({score: 0});
     return true;
-  }
+  };
 
   clickCount = id => {
     this.state.cards.find((o, i) => {
@@ -42,7 +42,7 @@ class App extends Component {
         }
       }
     });
-  }
+  };
   // Map over this.state.cards and render a cardCard component for each card object
   render() {
     return (
